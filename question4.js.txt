@@ -1,0 +1,9 @@
+function validateForm(){
+    var name = document.forms.myform.firstname ;
+  var  check = document.forms.myform.checkme ;
+if(name.value == null || name.value == "" || !check.checked){
+  alert('All fields must be filled');
+  return false;
+}
+return true;
+}

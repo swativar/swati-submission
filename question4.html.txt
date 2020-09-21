@@ -1,0 +1,12 @@
+<html>
+<head>
+<head>
+<body>
+<form name="myform" onsubmit="return validateForm()">
+  <input type="text" name="firstname">
+  <input type="checkbox" name="checkme">
+  <input type="submit" value="submit">
+</form>
+<script src='question4.js'></script>
+</body>
+</html>
